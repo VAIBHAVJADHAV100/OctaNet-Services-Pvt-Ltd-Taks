@@ -1,0 +1,105 @@
+/* font-family: 'Dancing Script', cursive; */
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.nav1{
+	width: 100%;
+	height: 50px;
+	color: white;
+	background: #222f3e;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.nav1 i{
+	margin: 0px 5px;
+	
+}
+.nav1 a{
+	text-decoration: none;
+	color: white;
+	padding:  5px 10px;
+	background: green;
+}
+.nav2{
+	width: 100%;
+	height: 80px;
+	background: white;
+	color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+  padding: 0px 70px;
+}
+.nav2 img{
+	width: 250px;
+	height: 80px;
+}
+.menu a{
+	text-decoration: none;
+	color: black;
+	padding: 10px 20px;
+}
+header{
+	width: 100%;
+
+	height: 100vh;
+	background:linear-gradient(rgba(0, 0, 0, 0.7)85%,#e67e22), url("https://www.bankrate.com/2014/05/26174958/Reasons-to-go-to-college.jpg?auto=webp&optimize=high&crop=16:9");
+	background-size: 100% 100%;
+}
+.htext{
+	max-width: 600PX;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.htext h1{
+	font-size: 3em;
+	font-family:'Dancing Script', cursive; 
+}
+.htext span{
+	color: #e67e22;
+		font-family:'Dancing Script', cursive; 
+}
+.htext p{
+	font-size: 20px;
+	margin: 40px 0px;
+	line-height: 30px;
+
+}
+.htext a{
+	text-decoration: none;
+	color: white;
+	background: #e67e22;
+    padding: 10px 2px;
+    margin: 0 15px;
+    letter-spacing: 3px;
+}
+footer{
+	width: 100%;
+	height: 300px;
+	background: black;
+	color: white;
+}
+footer table{
+	width: 80%;
+	height: 300px;
+
+	
+
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 13px;
+}
+#attribute{
+	font-size: 25px;
+}
